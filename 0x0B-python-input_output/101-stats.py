@@ -31,12 +31,10 @@ if __name__ == "__main__":
             if count == 10:
                 print_stats(size, status_codes)
                 count = 1
-            else
-
-            count += 1
+            else:
+                count += 1
 
             line = line.split()
-
 
             try:
                 size += int(line[-1])
